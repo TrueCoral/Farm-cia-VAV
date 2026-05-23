@@ -10,7 +10,7 @@ $stmt->execute();
 $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<?php require_once 'includes/header.php'; ?>
+<?php require_once 'includes/Header.php'; ?>
 
 <h2>Produtos em Estoque</h2>
 
@@ -47,4 +47,4 @@ $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 </div>
 
-<?php require_once 'includes/footer.php'; ?>
+<?php require_once 'includes/Footer.php'; ?>

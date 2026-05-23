@@ -13,5 +13,7 @@
     <nav>
         <a href="index.php">Produtos</a> 
         <a href="cadastro.php">Cadastrar</a>
+        <a href="editar.php">Editar</a>
+        <a href="excluir.php">Excluir</a>
     </nav>
     <hr>

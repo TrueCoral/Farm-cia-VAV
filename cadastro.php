@@ -1,5 +1,5 @@
 <?php require_once 'includes/Header.php'; ?>
-
+<main>
 <form method="post">
     <label>Nome do Produto</label>
     <input type="text" name="nome" required>
@@ -10,13 +10,13 @@
     <label>Fabricante</label>
     <input type="text" name="fabricante" required>
     <br><br>
-    <label>estoque</label>
+    <label>Estoque</label>
     <input type="text" name="estoque" required>
     <br><br>
-    <label>dose do Produto</label>
+    <label>Dose do Produto</label>
     <input type="text" name="dose" required>
     <br><br>
-    <button type="submit">enviar</button>
+    <button type="submit">Enviar</button>
 
 </form>
 
@@ -52,5 +52,7 @@ $id = $pdo->lastInsertId();
 }
 ?>
 <br>
+
+</main>
 
 <?php require_once 'includes/Footer.php'; ?>

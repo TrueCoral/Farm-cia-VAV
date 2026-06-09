@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Farmacia</title>
   
 </head>
 <body>
-    <header>
-        <h1>Farmacia</h1>
+<header>
+        
     <nav>
+        <h1>Farmacia VAV</h1>
         <a href="index.php">Produtos</a> 
         <a href="cadastro.php">Cadastrar</a>
         <a href="editar.php">Editar</a>
         <a href="excluir.php">Excluir</a>
     </nav>
     <hr>
+</header>

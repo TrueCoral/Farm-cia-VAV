@@ -12,6 +12,8 @@ $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <?php require_once 'includes/Header.php'; ?>
 
+<main>
+    
 <h2>Produtos em Estoque</h2>
 
 <div class="cards">
@@ -46,5 +48,7 @@ $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <?php endforeach; ?>
 
 </div>
+
+</main>
 
 <?php require_once 'includes/Footer.php'; ?>

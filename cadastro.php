@@ -1,22 +1,22 @@
 <?php require_once 'includes/Header.php'; ?>
 <main>
 <form method="post">
-    <label>Nome do Produto</label>
+    <label><h2>Nome do Produto</h2></label>
     <input type="text" name="nome" required>
     <br><br>
-    <label>Preço</label>
+    <label><h2>Preço</h2></label>
     <input type="text" name="preco" required>
     <br><br>
-    <label>Fabricante</label>
+    <label><h2>Fabricante</h2></label>
     <input type="text" name="fabricante" required>
     <br><br>
-    <label>Estoque</label>
+    <label><h2>Estoque</h2></label>
     <input type="text" name="estoque" required>
     <br><br>
-    <label>Dose do Produto</label>
+    <label><h2>Dose do Produto</h2></label>
     <input type="text" name="dose" required>
     <br><br>
-    <button type="submit">Enviar</button>
+    <button type="submit"><strong>Enviar</strong></button>
 
 </form>
 

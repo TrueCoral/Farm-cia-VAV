@@ -1,5 +1,7 @@
 <?php require_once 'includes/Header.php'; ?>
 
+<main>
+
 <div class="content">
     <h2>Excluir Produto</h2>
 
@@ -43,5 +45,7 @@
     }
     ?>
 </div>
+
+</main>
 
 <?php require_once 'includes/Footer.php'; ?>

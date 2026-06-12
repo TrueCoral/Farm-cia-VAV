@@ -1,6 +1,8 @@
 
 <?php require_once 'includes/Header.php'; ?>
 
+<main>
+
 <div class="content">
     <h2>Editar Produto</h2>
 
@@ -68,6 +70,8 @@ if (isset($_POST['salvar'])) {
 </form>
 
 </div>
+
+</main>
 
 <?php require_once 'includes/Footer.php'; ?>
 
